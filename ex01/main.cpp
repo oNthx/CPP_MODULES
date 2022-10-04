@@ -6,7 +6,7 @@
 /*   By: bozgur <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/25 22:34:53 by bozgur            #+#    #+#             */
-/*   Updated: 2022/10/02 16:14:59 by bozgur           ###   ########.fr       */
+/*   Updated: 2022/10/03 22:31:29 by bozgur           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int	main()
 		if (input == "ADD")
 			book.add_contact();
 		else if (input == "SEARCH")
-			std::cout << "Hello, you in search" << std::endl;
+			book.list_contacts();
 		else if (input == "EXIT")
 		{
 			std::cout << "Bye!" << std::endl;
